@@ -1,0 +1,15 @@
+{
+  "name": "server-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --watch ./src/books-list.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
